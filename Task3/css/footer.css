@@ -1,0 +1,23 @@
+.footer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__text span {
+  color: #60beb5;
+  margin-right: 15px;
+}
+
+.footer__text p {
+  margin-top: 10px;
+  color: grey;
+}
+
+.footer__icons img {
+  width: 40px;
+  height: 40px;
+}
