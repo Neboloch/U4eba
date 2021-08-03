@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header {
+    min-height: 90px;
+    margin-bottom: 130px;
+}
+.block {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    border: solid 1px black;
+}
+.promo {
+    min-height: 460px;
+    margin-bottom: 110px;
+}
+.clients {
+    min-height: 80px;
+    margin-bottom: 170px;
+}
+.price {
+    min-height: 480px;
+margin-bottom: 235px;
+}
+.team {
+min-height: 360px;
+margin-bottom: 180px;
+
+}
+
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
