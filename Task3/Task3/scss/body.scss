@@ -1,0 +1,232 @@
+.body__content{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    --main-color: #60beb5;
+}
+.container {
+}
+.body__content {
+}
+.body__head {
+    height: 300px;
+    background: url(/img/main.png) 0 0/100% no-repeat;
+    position: relative;
+}
+.body-foodsense {
+    background: 0 0/100%   rgba(218, 214, 214, 0.5);
+    width: 230px;
+    font-size: 23px;
+    padding: 12px 0 12px 20px;
+    position: absolute;
+    top: 60%;
+}
+.body-header2 {
+    color:white;
+    background: black;
+    width: 450px;
+    padding: 5px 0 5px 20px;
+    position: absolute;
+    top:75%;
+}
+.body-links {
+    width: 100%;
+    background: rgba(239, 248, 247, 1);
+}
+.body__links-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+}
+.body__links-list li{
+    padding: 0 50px;
+}
+.body__links-list a{
+    color:var(--main-color);
+}
+.body__mail-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border-top: 1px dashed grey;
+    border-bottom: 1px dashed grey;
+    padding: 15px 0;
+}
+.body__mail-block img{
+    width: 50px;
+    height: 50px;
+}
+.mail-block__text {
+    width: 350px;
+    position: relative;
+    padding-left: 60px;
+}
+.mail-block__text::before{
+    content: '';
+    position: absolute;
+    background: url(/img/mail.png) 0 0/100% no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: -65px;
+}
+.email {
+    margin-right: 20px;
+}
+.email-block__button {
+}
+.body__food-row {
+    display: flex;
+    position: relative;
+    margin-bottom: 150px;
+}
+.body__food-column {
+}
+.body__food-column img{
+    max-width: 100%;
+    width: 86%;
+    height: 30%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.food-column__header {
+    color:var(--main-color);
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.food-column__text {
+    width: 150px;
+    margin-bottom: 15px;
+}
+.food-column__date {
+    font-size: 18px;
+    color:grey;
+}
+.food-column__link a{
+    color:var(--main-color);
+}
+
+@media (max-width:768px){
+    .container{
+    }
+    .header-logo{
+        margin-right: -10px;
+        width: 100px;
+        height: 100px;
+    }
+    .body__content{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .body-foodsense{
+        width: 97%;
+        top:75%;
+    }
+    .body-header2{
+        width: 97%;
+        top:90%;
+    }
+    .body__head{
+        width: 100%;
+        background: url(/img/main.png) 50% 50%/cover no-repeat;
+    }
+    .header__body{
+        position: relative;
+        justify-content: center;
+    }
+    .header__community{
+        display: none;
+    }
+    .links-list img {
+        display: none;
+    }
+    .links-list {
+        display: flex;
+        flex-direction: row;
+    }
+    .links-list li{
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+    .header__links{
+        flex-direction: row;
+    }
+    .header__body{
+        flex-direction: row;
+    }
+    .body-links{
+        display: none;
+    }
+    .footer__text{
+        display: none;
+    }
+    .footer__icons{
+        display: none;
+    }
+    .body__food-row{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 0;
+    }
+    .body__food-column{
+        width: 270px;
+    }
+    .body__mail-block{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .mail-block__text {
+        max-width: 80%;
+        position: relative;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        padding-right: 10px;
+    }
+    .mail-block__text::before{
+        content: '';
+        position: absolute;
+        background: url(/img/mail.png) 0 0/100% no-repeat;
+        width: 50px;
+        height: 50px;
+    }
+    .email{
+        width: 60%;
+    }
+    .email-block__button{
+        width: 30%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media (max-width:375px){
+    .container{ 
+        max-width: none;
+    }
+    .header__links{
+        position: relative;
+        margin-bottom: 110px;
+    }
+    .header-logo{
+        position: absolute;
+        top: 30%;
+    }
+    .body__head{
+        width: 100%;
+        background: url(/img/main.png) 50% 50%/cover no-repeat;
+    }
+    .body-foodsense{
+        font-size: 15px;
+    }
+    .body-header2{
+        font-size: 10px;
+    }
+}
