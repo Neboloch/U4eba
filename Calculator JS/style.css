@@ -1,0 +1,11 @@
+
+.buttons {
+    margin-top: 50px;
+width: 300px;
+max-width: 300px;
+
+}
+.buttons > button {
+
+    width: 80px;
+}
