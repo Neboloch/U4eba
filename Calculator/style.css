@@ -1,0 +1,54 @@
+.calculator{
+    background: lightGrey;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .display{
+    width: 100%;
+    background-color: darkGrey;
+    height: 50px;
+    width: 292px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 48px;
+  }
+  
+  .buttons{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    flex:1 25%;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color:lightgrey;
+    transition:   0s linear;
+
+
+  }
+  button:hover {
+    background: rgb(161, 144, 43);
+
+
+  }
+  
+ 
+  .operator {
+    background-color:orange;
+  }
+  
+  .equals {
+    background-color:green;
+  }
+  
+  .clear {
+     background-color:crimson;
+  }
+  .all-clear {
+    background-color:pink;
+
+  }
+  
+  
